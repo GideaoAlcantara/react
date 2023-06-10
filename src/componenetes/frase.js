@@ -1,11 +1,11 @@
-
+import style from './Frase.module.css'
 
 function frase() {
     
 
     return (
-        <div>
-            <p>segundo exemplo do arquivo frase.js</p>
+        <div className={style.fraseContainer}>
+            <p className={style.frasecontent}>segundo exemplo do arquivo frase.js</p>
         </div>
     )
 }
