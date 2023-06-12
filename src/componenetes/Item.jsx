@@ -22,4 +22,4 @@ Item.defaultProps = {
     marca: 'faltou a marca',
     ano_lancamento: 0,
 }
-export default Item
+export default Item 

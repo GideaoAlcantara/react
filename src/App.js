@@ -74,6 +74,8 @@ import './App.css';
 //import Pessoa from './componenetes/Pessoa';
 //import frase from './componenetes/frase'
 import List from './componenetes/List';
+import Evento from './componenetes/Evento'
+import Form from './componenetes/Form'
 
 function App() {
  
@@ -83,13 +85,12 @@ function App() {
     <div className="App">
       <header className="App-header">
         
-         <h1>teste de nome</h1>
-         <h1>teste de nome</h1>
-         <h1>teste de nome</h1>
-
-        
-         
+       
+        <Evento num ="1"/>
+        <Evento num ="2"/>
          <List />
+
+         <Form/>
 
       </header>
     </div>
@@ -98,6 +99,6 @@ function App() {
   );
 }
 
-export default App;
+export default App; 
 
 
