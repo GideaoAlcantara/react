@@ -70,7 +70,7 @@ foto="https://via.placeholder.com/150" />
 
 import './App.css';
 //import helloword from './componenetes/helloword'
-//import SayMyName from './componenetes/SayMyName';
+import SayMyName from './componenetes/SayMyName';
 //import Pessoa from './componenetes/Pessoa';
 //import frase from './componenetes/frase'
 import List from './componenetes/List';
@@ -78,20 +78,19 @@ import Evento from './componenetes/Evento'
 import Form from './componenetes/Form'
 
 function App() {
- 
-
+   const nome = '1 exemplo'
+   const namu = nome.toUpperCase()
+  let nn="jucano"
   return (
-
+            
     <div className="App">
       <header className="App-header">
-        
-       
+         <p>{namu}</p>
+         <SayMyName nome={nn} numero="12"/>
         <Evento num ="1"/>
         <Evento num ="2"/>
-         <List />
-
-         <Form/>
-
+        <List />
+        <Form/>
       </header>
     </div>
 
