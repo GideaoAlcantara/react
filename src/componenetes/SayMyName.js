@@ -17,3 +17,8 @@ function SayMyName(props) {
 }
 
 export default SayMyName
+
+SayMyName.defaultProps={
+     nome:'josiane',
+     numero:190
+}

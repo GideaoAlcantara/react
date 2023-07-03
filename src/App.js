@@ -86,7 +86,7 @@ function App() {
     <div className="App">
       <header className="App-header">
          <p>{namu}</p>
-         <SayMyName nome={nn} numero="12"/>
+         <SayMyName/>
         <Evento num ="1"/>
         <Evento num ="2"/>
         <List />
