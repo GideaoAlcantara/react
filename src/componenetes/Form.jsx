@@ -1,7 +1,7 @@
 //Eventos com Formuarios
 
-/*
---------- 1 EXEMPLO : JA DEIXAR O NOME PRESENTE NA CAIXA DE TEXTO -------------
+
+//--------- 1 EXEMPLO : JA DEIXAR O NOME PRESENTE NA CAIXA DE TEXTO -------------
 
 //1 PASSO = ADD IMPORT USESTATE
 
@@ -53,13 +53,13 @@ function Form() {
 }
 
 export default Form
-*/
+
 
 
 // 2 EXEMPLO -> RESUMO FINAL 
 
 //1 PASSO = ADD IMPORT USESTATE
-
+/*
 import { useState } from "react";
 
 function Form() {
@@ -117,7 +117,7 @@ function Form() {
     )
 }
 
-export default Form
+export default Form*/
 
 /**
  ---RESUMO DA AULA DE USESTATE

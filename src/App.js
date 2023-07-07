@@ -76,6 +76,8 @@ import SayMyName from './componenetes/SayMyName';
 import List from './componenetes/List';
 import Evento from './componenetes/Evento'
 import Form from './componenetes/Form'
+import Eventu from './componenetes/Eventu';
+import Condicional from './componenetes/Condicional';
 
 function App() {
    const nome = '1 exemplo'
@@ -85,12 +87,14 @@ function App() {
             
     <div className="App">
       <header className="App-header">
+         <Condicional/>
          <p>{namu}</p>
          <SayMyName/>
         <Evento num ="1"/>
         <Evento num ="2"/>
         <List />
         <Form/>
+        <Eventu/>
       </header>
     </div>
 
@@ -99,6 +103,7 @@ function App() {
 }
 
 export default App; 
+
 
 
 
