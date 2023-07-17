@@ -78,11 +78,15 @@ import Evento from './componenetes/Evento'
 import Form from './componenetes/Form'
 import Eventu from './componenetes/Eventu';
 import Condicional from './componenetes/Condicional';
+import RendDeLista from './componenetes/RendDeLista';
 
 function App() {
    const nome = '1 exemplo'
    const namu = nome.toUpperCase()
-  let nn="jucano"
+  let nn="jucano"               
+                                  //aqui em baixo seria um objeto mais completo
+                                  /*{framework:'x',alunos:123}*/
+const meuItens=['react','php','html','css','javascript']//1 lista esse array
   return (
             
     <div className="App">
@@ -95,6 +99,8 @@ function App() {
         <List />
         <Form/>
         <Eventu/>
+        <RendDeLista itens={meuItens}/>
+        <RendDeLista itens={[]}/>
       </header>
     </div>
 
